@@ -33,7 +33,7 @@ git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-push
 sed -i 's/"system"/"status"/g' feeds/luci/applications/luci-app-netdata/luasrc/controller/*.lua
 
 # 调整 filebrowser 到 系统 菜单
-sed -i 's/services/system/g' feeds/luci/applications/luci-app-filebrowser/root/usr/share/luci/menu.d/*.json
+sed -i 's/services/system/g' feeds/luci/applications/luci-app-filebrowser-go/root/usr/share/luci/menu.d/*.json
 
 # 调整 nlbwmon 到 一级 菜单
 #sed -i 's/services\///g' feeds/luci/applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/*.js
