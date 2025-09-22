@@ -38,3 +38,5 @@ sed -i 's/services/system/g' feeds/luci/applications/luci-app-filebrowser-go/roo
 # 调整 nlbwmon 到 一级 菜单
 #sed -i 's/services\///g' feeds/luci/applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/*.js
 #sed -i 's/services\///g' feeds/luci/applications/luci-app-nlbwmon/root/usr/share/luci/menu.d/*.json
+
+sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=6.12/g" target/linux/x86/Makefile
