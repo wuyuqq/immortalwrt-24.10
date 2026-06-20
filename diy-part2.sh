@@ -29,6 +29,9 @@ git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-push
 # nikki
 #git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git package/nikki
 
+# daed
+git clone https://github.com/QiuSimons/luci-app-daed package/dae
+
 # 调整 netdata 到 状态 菜单
 sed -i 's/system/status/g' feeds/luci/applications/luci-app-netdata/root/usr/share/luci/menu.d/*.json
 
